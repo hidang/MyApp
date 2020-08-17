@@ -44,10 +44,21 @@
         </exclusion>
       </exclusions>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.github.jsimone/webapp-runner -->
+    <dependency>
+        <groupId>com.github.jsimone</groupId>
+        <artifactId>webapp-runner</artifactId>
+        <version>9.0.27.1</version>
+        <scope>provided</scope>
+    </dependency>
+
   </dependencies>
   
   <build>
     <finalName>MyApp</finalName>
+
+  
+
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
